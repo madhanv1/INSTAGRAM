@@ -1,0 +1,132 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/john.webp"
+      },
+      "image": "src/assets/sunset.webp",
+      "caption": "Beautiful sunset 🌅 #Nature",
+      "likes": 120,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Wow! Amazing shot! 📸"
+        },
+        {
+          "user": "mark_92",
+          "comment": "Where is this place?"
+        }
+      ],
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "emma_green",
+        "profile_pic": "src/assets/emma.webp"
+      },
+      "image": "src/assets/Hiking.webp",
+      "caption": "Hiking adventures ⛰️ #Travel",
+      "likes": 230,
+      "comments": [
+        {
+          "user": "john_doe",
+          "comment": "That view is breathtaking!"
+        }
+      ],
+      "timestamp": "2025-02-12T09:15:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "mike_77",
+        "profile_pic": "src/assets/been.webp"
+      },
+      "image": "src/assets/cofee.png",
+      "caption": "Morning coffee ☕ #ChillVibes",
+      "likes": 75,
+      "comments": [
+        {
+          "user": "emma_green",
+          "comment": "Nothing better than coffee to start the day!"
+        }
+      ],
+      "timestamp": "2025-02-13T07:45:00Z"
+    }
+  ],
+  "profile": {
+    "id": 101,
+    "username": "john_donn",
+    "profile_pic": "src/assets/s1.webp"
+  },
+  "suggestions": [
+    {
+      "id": "101",
+      "username": "john_doe",
+      "profile_pic": "src/assets/john.webp"
+    },
+    {
+      "id": "102",
+      "username": "emma_green",
+      "profile_pic": "src/assets/emma.webp"
+    },
+    {
+      "id": "103",
+      "username": "mike_77",
+      "profile_pic": "src/assets/been.webp"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/john.webp"
+      },
+      "image": "/src/assets/s1.webp"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "emma_green",
+        "profile_pic": "src/assets/emma.webp"
+      },
+      "image": "/src/assets/s2.webp"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "mike_77",
+        "profile_pic": "/src/assets/been.webp"
+      },
+      "image": "/src/assets/s3.webp"
+    }
+  ],
+  "followers": [
+    {
+      "id": "102",
+      "username": "emma_green",
+      "profile_pic": "src/assets/emma.webp"
+    },
+    {
+      "id": "101",
+      "username": "john_doe"
+    },
+    {
+      "id": "102",
+      "username": "emma_green"
+    },
+    {
+      "id": "103",
+      "username": "mike_77"
+    }
+  ]
+}
